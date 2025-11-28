@@ -6,6 +6,12 @@
     --text-light: #f8f9fa;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-dark);
+    background-color: white;
+}
+
 .navbar-brand {
     font-size: 1.5rem;
 }
@@ -55,4 +61,65 @@
     background-color: var(--secondary-color);
     border-color: var(--secondary-color);
     color: #343a40; /* Texto oscuro en botón de acento */
+}
+
+.course-card {
+    min-width: 280px; /* Ancho fijo para las tarjetas en la fila con scroll */
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Área de la Imagen con el tag de Psicología */
+.course-card-img {
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.course-tag {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: var(--secondary-color); /* Usando el color de acento para el tag */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+/* Estilo del botón de Precio (US$ 7.395) */
+.course-footer {
+    border-top: none;
+    padding: 0;
+}
+
+.btn-price {
+    background: darkslategray; /* Gradiente rosa/rojo */
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 0 0 12px 12px;
+    transition: opacity 0.2s;
+}
+
+.btn-price:hover {
+    opacity: 0.9;
+    color: white;
+}
+
+/* El row overflow-auto permite el scroll lateral en dispositivos pequeños */
+.featured-courses-section .row {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Mejora el desplazamiento en iOS */
 }
