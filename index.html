@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto de Psicología de Venezuela | Postgrados</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid container-xxl">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <i class="fas fa-brain fa-2x me-2 text-primary"></i>
+                <span class="fw-bold">ILPE<span class="text-secondary">Academia</span> VZLA</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="ofertaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-graduation-cap me-1"></i> Oferta Académica
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="ofertaDropdown">
+                            <li><a class="dropdown-item" href="#">Maestrías</a></li>
+                            <li><a class="dropdown-item" href="#">Especializaciones</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-users me-1"></i> Staff Docente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-book-open me-1"></i> Investigación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-calendar-alt me-1"></i> Eventos</a>
+                    </li>
+                </ul>
+                <form class="d-flex me-3">
+                    <div class="input-group">
+                        <input class="form-control" type="search" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn btn-outline-secondary" type="submit"><i class="fas fa-search"></i></button>
+                    </div>
+                </form>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal"><i class="fas fa-sign-in-alt me-1"></i> Iniciar Sesión</button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-white d-flex align-items-center">
+        <div class="container container-xxl">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="display-3 fw-bold mb-3">
+                        Formación de Postgrado en Psicología
+                    </h1>
+                    <p class="lead mb-4">
+                        Maestrías y Especializaciones con enfoque en la realidad venezolana.
+                    </p>
+
+                    <div class="d-flex gap-3 mb-5">
+                        <button class="btn btn-warning btn-lg fw-bold"><i class="fas fa-hand-pointer me-2"></i> Admisiones</button>
+                        <button class="btn btn-outline-light btn-lg"><i class="fas fa-flask me-2"></i> Investigación</button>
+                    </div>
+
+                    <p class="mb-0"><i class="fas fa-map-marker-alt me-2"></i> Caracas, Distrito Capital, Venezuela.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="container container-xxl my-5">
+        <h2 class="text-center mb-4 text-primary">Nuestra Trayectoria <i class="fas fa-chart-line"></i></h2>
+        <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
+            <div class="col">
+                <div class="card h-100 p-3 shadow-sm border-start border-4 border-warning">
+                    <div class="card-body">
+                        <h3 class="display-4 fw-bold text-warning">800+</h3>
+                        <p class="text-muted mb-0">Estudiantes Regulares</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 bg-light p-3 shadow-sm">
+                    <div class="card-body">
+                        <i class="fas fa-comments fa-2x text-secondary mb-3"></i>
+                        <h5 class="card-title fw-bold">Especialización Destacada</h5>
+                        <p class="card-text">Clínica con Mención en Neuropsicología</p>
+                        <a href="#" class="btn btn-sm btn-outline-secondary">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 p-3 shadow-sm border-start border-4 border-primary">
+                    <div class="card-body">
+                        <h3 class="display-4 fw-bold text-primary">1.5K+</h3>
+                        <p class="text-muted mb-0">Egresados de Postgrado</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 bg-primary text-white p-3 shadow-lg">
+                    <div class="card-body d-flex flex-column justify-content-center">
+                        <i class="fas fa-compass fa-3x mb-3"></i>
+                        <h5 class="card-title fw-bold">Explora nuestros Programas</h5>
+                        <a href="#" class="btn btn-light mt-2 fw-bold">Ver Programas</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="updates-section py-5 text-white">
+        <div class="container container-xxl">
+            <h2 class="text-center display-5 fw-bold mb-5">
+                <i class="fas fa-bullhorn me-2"></i> Mantente al día con las Actualizaciones
+            </h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-lg text-dark">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-success"><i class="fas fa-clipboard-list me-2"></i> Convocatoria General</h5>
+                            <p class="card-text text-muted small">20 NOV</p>
+                            <p class="card-text">Abiertas las inscripciones para el trimestre Enero-Marzo 2026. ¡Cupos Limitados!</p>
+                            <a href="#" class="btn btn-sm btn-outline-success">Leer Más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-lg text-dark">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-danger"><i class="fas fa-file-contract me-2"></i> Licitaciones / Concursos</h5>
+                            <p class="card-text text-muted small">15 NOV</p>
+                            <p class="card-text">Concurso de Investigación para Proyectos de Intervención Comunitaria.</p>
+                            <a href="#" class="btn btn-sm btn-outline-danger">Detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="loginModalLabel"><i class="fas fa-user-circle me-2"></i> Acceso de Estudiantes/Staff</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="modalContentContainer">
+                        <form id="loginForm">
+                            <div class="mb-3">
+                                <label for="emailInput" class="form-label">Correo Electrónico</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                    <input type="email" class="form-control" id="emailInput" required placeholder="ejemplo@psicoacademia.edu.ve">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="passwordInput" class="form-label">Contraseña</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                    <input type="password" class="form-control" id="passwordInput" required placeholder="Ingresa tu clave">
+                                </div>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="rememberMe">
+                                <label class="form-check-label" for="rememberMe">Recordarme</label>
+                            </div>
+                            <div id="loginMessage" class="alert d-none" role="alert"></div>
+                            <button type="submit" class="btn btn-primary w-100"><i class="fas fa-sign-in-alt me-2"></i> Iniciar Sesión</button>
+                        </form>
+                        <hr>
+                        <p class="text-center mt-3">
+                            <a href="#" class="text-secondary">¿Olvidaste tu contraseña?</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

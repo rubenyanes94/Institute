@@ -1,0 +1,58 @@
+/* Colores de la paleta (puedes ajustarlos) */
+:root {
+    --primary-color: #007bff; 
+    --secondary-color: #ffc107; 
+    --background-dark: #343a40; 
+    --text-light: #f8f9fa;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1549419168-5452f354900a?fit=crop&w=1400&h=800&q=80'); /* Reemplaza con una imagen relevante de Caracas o Psicología */
+    background-size: cover;
+    background-position: center;
+    min-height: 550px; 
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%); 
+    padding: 100px 0;
+}
+
+
+.updates-section {
+    background-color: var(--background-dark);
+    padding-bottom: 50px !important;
+    padding-top: 50px !important;
+}
+
+/* Color principal del instituto */
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Color de acento */
+.text-secondary {
+    color: var(--secondary-color) !important;
+}
+
+.border-warning {
+    border-color: var(--secondary-color) !important;
+}
+
+.btn-warning {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: #343a40; /* Texto oscuro en botón de acento */
+}
