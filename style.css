@@ -33,7 +33,6 @@ body {
     padding-top: 50px !important;
 }
 
-/* Color principal del instituto */
 .text-primary {
     color: var(--primary-color) !important;
 }
@@ -60,11 +59,11 @@ body {
 .btn-warning {
     background-color: var(--secondary-color);
     border-color: var(--secondary-color);
-    color: #343a40; /* Texto oscuro en botón de acento */
+    color: #343a40; 
 }
 
 .course-card {
-    min-width: 280px; /* Ancho fijo para las tarjetas en la fila con scroll */
+    min-width: 280px; 
     border-radius: 12px;
     overflow: hidden;
     transition: transform 0.2s, box-shadow 0.2s;
@@ -75,7 +74,6 @@ body {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Área de la Imagen con el tag de Psicología */
 .course-card-img {
     height: 150px;
     background-size: cover;
@@ -87,7 +85,7 @@ body {
     position: absolute;
     top: 15px;
     left: 15px;
-    background-color: var(--secondary-color); /* Usando el color de acento para el tag */
+    background-color: var(--secondary-color); 
     color: white;
     padding: 5px 10px;
     border-radius: 20px;
